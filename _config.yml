@@ -3,7 +3,7 @@ name: Sandeep Nambiar
 bio: Measuring the world
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Sandeep Nambiar's personal webpage and blog
 
 # if it's an external image, update below for true
 # better with square images
@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://gamedolphin.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
