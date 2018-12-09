@@ -2,4 +2,4 @@
     <h2 align="center">Sandeep's Personal Website's Repository</h2>
 </p>
 
-The website is created using [Jekyll](https://jekyllrb.com/) and the [Indigo](https://github.com/sergiokopplin/indigo/fork) theme
+<p align="center">The website is created using <a href="https://jekyllrb.com/">Jekyll</a> and the <a href="https://github.com/sergiokopplin/indigo/">Indigo</a> theme</p>
