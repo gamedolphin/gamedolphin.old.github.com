@@ -1,0 +1,32 @@
+---
+title: "JoomBox"
+layout: post
+date: 2014-10-10 12:00
+tag: application
+image: ""
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Python desktop streaming secure music player"
+category: project
+author: nambiar
+externalLink: false
+comments: false
+---
+
+Initially written in python, and then in Javascript + Electron, Joombox is a Windows only music player to be used in retail stores so that the store can play music without giving employees access to the music.
+
+To this end, Joombox only had a play and refresh button and internally encrypted music locally to prevent access to it.
+
+
+---
+Role - Lead Dev
+
+---
+
+Technologies Used
+
+- Python
+- Pygame
+- Electron JS
+- React JS

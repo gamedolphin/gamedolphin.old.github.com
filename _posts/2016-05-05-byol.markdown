@@ -1,0 +1,32 @@
+---
+title: "B.Y.O.L"
+layout: post
+date: 2016-05-05 12:00
+tag: game
+image: ""
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Indie Speed Run Entry"
+category: project
+author: nambiar
+externalLink: false
+comments: false
+---
+
+<center><img src="/assets/images/byol.jpg"/></center>
+
+Our entry in Indie Speed Run 3.0, BYOL, is picked among the most addictive games from hundreds of games across the world.
+
+---
+Role - Lead Game Dev
+
+---
+
+Technologies Used
+
+- Cocos2d-Js
+
+---
+
+[Check it out here](http://supersikegames.com/byol/).
