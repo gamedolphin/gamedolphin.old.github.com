@@ -15,7 +15,7 @@ layout: page
 	<li>C#</li>
 	<li>Unity</li>
 	<li>React Native</li>
-	<li>Javascript (Design Patterns, Testes)</li>
+	<li>Javascript (Design Patterns, Tests)</li>
 	<li>NodeJS</li>
 	<li>ReactJS</li>
 	<li>Grunt - Gulp - Yeoman - Webpack</li>
