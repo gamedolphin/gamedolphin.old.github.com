@@ -173,6 +173,13 @@ And cleanup whitespaces in a file when I save.
 (add-hook 'before-save-hook 'whitespace-cleanup)
 {% endhighlight %}
 
+Diminish lets you hide minor modes from showing in the mode line, keeping it minimal
+{% highlight elisp %}
+(use-package diminish
+  :ensure t)
+{% endhighlight %}
+
+
 Highlighting of parens is handled by smartparens package.
 
 {% highlight elisp %}
