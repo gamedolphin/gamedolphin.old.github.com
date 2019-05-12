@@ -9,7 +9,7 @@ tag:
 star: true
 category: blog
 author: nambiar
-description: A tour of my emacs setup
+description: A tour of my Emacs setup
 ---
 
 ## Basic Setup
@@ -21,7 +21,7 @@ I begin by telling Emacs what my name and email address is. This is used by tool
       user-mail-address "contact@sandeepnambiar.com")
 {% endhighlight %}
 
-Garbage collection in emacs is quite simple. Every time memory crosses a certain threshold, it garbage collects. But the default value for this threshold is quite low by modern standards, just 800KB. Most extensions of emacs use considerably more memory than that and this low threshold makes emacs quite slow when using them. I set it something more reasonable like 50MB. Another low threshold is hit when opening files with sizes that are common nowadays and Emacs warns you about being wary of opening such a large file. I increase that limit too. I have RAM to spare.
+Garbage collection in Emacs is quite simple. Every time memory crosses a certain threshold, it garbage collects. But the default value for this threshold is quite low by modern standards, just 800KB. Most extensions of Emacs use considerably more memory than that and this low threshold makes Emacs quite slow when using them. I set it something more reasonable like 50MB. Another low threshold is hit when opening files with sizes that are common nowadays and Emacs warns you about being wary of opening such a large file. I increase that limit too. I have RAM to spare.
 
 {% highlight elisp %}
 (setq gc-cons-threshold 50000000)
@@ -77,7 +77,7 @@ Next I enable a bunch of visual helpers like line numbers, current line highligh
 (size-indication-mode t)
 {% endhighlight %}
 
-I never use the startup emacs screen anymore so I disable that as well. This leads Emacs to load up with the *scratch* buffer open.
+I never use the startup Emacs screen anymore so I disable that as well. This leads Emacs to load up with the *scratch* buffer open.
 
 {% highlight elisp %}
 (setq inhibit-startup-screen t)
@@ -92,7 +92,7 @@ The model-line has the current file's name but the path to the current file is s
        "%b"))))
 {% endhighlight %}
 
-Default scrolling has some wierd quirks in emacs, so I set margins that trigger scroll to zero and preserve screen position when jumping around.
+Default scrolling has some wierd quirks in Emacs, so I set margins that trigger scroll to zero and preserve screen position when jumping around.
 
 {% highlight elisp %}
 (setq scroll-margin 0
@@ -106,7 +106,7 @@ I use the font "Hack" which you can find at this [link](https://sourcefoundry.or
 (set-frame-font "Hack 12" nil t)
 {% endhighlight %}
 
-One of the things I liked about Visual Studio Code editor was the default theme. Fortunately there's an emacs package for it. Doom-one is my go to modern minimal theme. We also disable the default warning audio bell and replace it with a visual "bell" where only the mode-line flashes to warn you about something.
+One of the things I liked about Visual Studio Code editor was the default theme. Fortunately there's an Emacs package for it. Doom-one is my go to modern minimal theme. We also disable the default warning audio bell and replace it with a visual "bell" where only the mode-line flashes to warn you about something.
 
 {% highlight elisp %}
 (use-package doom-themes
@@ -148,7 +148,7 @@ You can get fairly tired by typing a full "yes" or "no" to Emacs' questions. So 
 (fset 'yes-or-no-p 'y-or-n-p)
 {% endhighlight %}
 
-If I edit a file outside of emacs, the default setting is for Emacs to ask you to reload the file manually. I task Emacs to reload the file automatically.
+If I edit a file outside of Emacs, the default setting is for Emacs to ask you to reload the file manually. I task Emacs to reload the file automatically.
 
 {% highlight elisp %}
 (global-auto-revert-mode t)
@@ -254,7 +254,7 @@ I use company mode to provide completion and flycheck to do syntax checking and 
 
 ## Project setup
 
-No project is begun without git and emacs community's integration with git through magit is unparalleled in its expanse and ease of use. Setting that up is just as easy. "C-M-g" now triggers a git status buffer for the current file's repository.
+No project is begun without git and Emacs community's integration with git through magit is unparalleled in its expanse and ease of use. Setting that up is just as easy. "C-M-g" now triggers a git status buffer for the current file's repository.
 
 {% highlight elisp %}
 (use-package magit
@@ -314,11 +314,11 @@ I combine it with projectile to show project files through a helm fuzzy find int
 
 ## Daemon Mode
 
-At the end I start the emacs server so that any new frames that I open don't have to load the configuration from scratch.
+At the end I start the Emacs server so that any new frames that I open don't have to load the configuration from scratch.
 
 {% highlight elisp %}
 (require 'server)
 (if (not (server-running-p)) (server-start))
 {% endhighlight %}
 
-You can find my full emacs configuration at my [github](https://github.com/gamedolphin/.emacs.d) repository.
+You can find my full Emacs configuration at my [github](https://github.com/gamedolphin/.emacs.d) repository.
