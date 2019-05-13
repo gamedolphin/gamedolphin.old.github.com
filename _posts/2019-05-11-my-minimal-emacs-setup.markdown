@@ -2,7 +2,7 @@
 title: "My Minimal Emacs Setup"
 layout: post
 date: 2019-05-11 09:00
-image: /assets/images/markdown.jpg
+image: /assets/images/emacs.png
 headerImage: false
 tag:
 - emacs
