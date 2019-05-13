@@ -37,7 +37,7 @@ Everything needs to be UTF-8. I have to be careful when opening files from sourc
 (set-keyboard-coding-system 'utf-8)
 {% endhighlight %}
 
-> [eli-zaretskii](https://www.reddit.com/r/emacs/comments/bnwajk/my_minimal_emacs_config/enayfv7?utm_source=share&utm_medium=web2x) : If your system's locale is not UTF-8, you will get yourself in trouble, e.g., by assuming that your keyboard talks UTF-8.
+> [eli-zaretskii](https://www.reddit.com/r/emacs/comments/bnwajk/my_minimal_emacs_config/enayfv7?utm_source=share&utm_medium=web2x) :  If your system's locale specifies UTF-8, these settings are redundant, as Emacs does that by default. And if your system's locale is not UTF-8, you will get yourself in trouble, e.g., by assuming that your keyboard talks UTF-8.
 
 ## Setup package manager and use-package
 
