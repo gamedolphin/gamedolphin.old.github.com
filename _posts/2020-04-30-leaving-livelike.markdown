@@ -22,7 +22,7 @@ After 3 short years at Livelike, and a whirlwind of exciting projects, I am movi
 
 It was a joy watching the team grow from a motley crew of a few trying to deliver at 4 a.m to a well-oiled machine that knows what is expected and how to deliver. I switched multiple teams and even led one for a short while. I made friends and I am thankful for this time at Livelike.
 
-![Livelike India 2019]()
+![Livelike India 2018](/assets/images/livelike_2018.png)
 
 ## Mini Livelike Resume
 
