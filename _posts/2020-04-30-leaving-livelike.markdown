@@ -17,14 +17,20 @@ description: A summary of my time at Livelike, and what I am upto now.
 ---
 
 ![Mobile SDK](/assets/images/livelike.gif)
+Showcase
+{:.image-caption}
 
 After 3 short years at Livelike, and a whirlwind of exciting projects, I am moving on now. Livelike allowed me the freedom to explore my interests while also teaching me how efficient systems that deliver are setup amidst the chaos. I am proud to have been part of the team that worked with FIFA World Cup VR coverage with multiple broadcasters by building over 30 apps simultaneously. I got to experience VR on the frontlines and ride the wave of desire for this technology. I also experienced intense sporting events up close, and got the best seats, albeit virtual ones.
 
 ![Livelike India 2017](/assets/images/livelike_og.jpg)
+The Team in 2017
+{:.image-caption}
 
 It was a joy watching the team grow from a motley crew of a few trying to deliver at 4 a.m to a well-oiled machine that knows what is expected and how to deliver. I switched multiple teams and even led one for a short while. I made friends and I am thankful for this time at Livelike.
 
 ![Livelike India 2018](/assets/images/livelike_2018.jpg)
+The Team in 2018
+{:.image-caption}
 
 ## Mini Livelike Resume
 
@@ -42,6 +48,8 @@ In somewhat chronological order:
 
 <iframe src="https://player.vimeo.com/video/418974325?autoplay=1&amp;amp;dnt=1&amp;app_id=122963" allow="autoplay; fullscreen" allowfullscreen="" title="LiveLike VR - Bring Home The Game" id="fitvid0" frameborder="0" style="max-width: 100%; width: 640px; height: 320px; border-radius: 5px;">
 </iframe>
+The VR Showcase
+{:.image-caption}
 
 * Worked on the initial pilot of the Livelike Engagement SDK built entirely in React Native for both Android and iOS, making the switch to the Mobile team in the process.
 * Switched to Android native SDK team, helping with architecture and initial release.
@@ -50,6 +58,8 @@ In somewhat chronological order:
 * Setup the chat moderation section for the Producer Dashboard.
 
 ![Mobile SDK](/assets/images/livelike_mobile.gif)
+The Mobile SDK Showcase
+{:.image-caption}
 
 ## Stats
 
