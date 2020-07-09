@@ -16,6 +16,8 @@ author: nambiar
 description: A summary of my time at Livelike, and what I am upto now.
 ---
 
+![Mobile SDK](/assets/images/livelike.gif)
+
 After 3 short years at Livelike, and a whirlwind of exciting projects, I am moving on now. Livelike allowed me the freedom to explore my interests while also teaching me how efficient systems that deliver are setup amidst the chaos. I am proud to have been part of the team that worked with FIFA World Cup VR coverage with multiple broadcasters by building over 30 apps simultaneously. I got to experience VR on the frontlines and ride the wave of desire for this technology. I also experienced intense sporting events up close, and got the best seats, albeit virtual ones.
 
 ![Livelike India 2017](/assets/images/livelike_og.jpg)
@@ -37,11 +39,17 @@ In somewhat chronological order:
 * Unity side of the Mosaic system for watching multiple videos at the same time.
 * Inherited and finished up the Highlight Center in the Unity application.
 * Setup a React renderer for VR, allowing for the possible creation of VR applications with React. Used Spidermonkey for the JS engine, and got it to the POC stage.
+
+<iframe src="https://player.vimeo.com/video/418974325?autoplay=1&amp;amp;dnt=1&amp;app_id=122963" allow="autoplay; fullscreen" allowfullscreen="" title="LiveLike VR - Bring Home The Game" id="fitvid0" frameborder="0" style="max-width: 100%; width: 640px; height: 320px; border-radius: 5px;">
+</iframe>
+
 * Worked on the initial pilot of the Livelike Engagement SDK built entirely in React Native for both Android and iOS, making the switch to the Mobile team in the process.
 * Switched to Android native SDK team, helping with architecture and initial release.
 * Moved to the Producer frontend team, started with helping improve the widget creation section, switching completely to using React hooks and functional components only.
 * Helped switch the entire Producer Dashboard architecture to use React hooks and functional components.
 * Setup the chat moderation section for the Producer Dashboard.
+
+![Mobile SDK](/assets/images/livelike_mobile.gif)
 
 ## Stats
 
