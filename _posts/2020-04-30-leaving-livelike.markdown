@@ -74,6 +74,6 @@ The Mobile SDK Showcase
 
 ## Why am I leaving?
 
-Got an opportunity to do move away from app-related things back to a game-dev adjacent field and also to work with game-dev industry veterans. I was also getting quite comfortable at Livelike (and it is a *very* comfortable workplace**, so much so that I stopped growing and learning new things. The team has also reached a point where I feel comfortable exiting, the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is not one anymore.
+Got an opportunity to move away from app-related things back to a game-dev adjacent field and also to work with game-dev industry veterans. I was also getting quite comfortable at Livelike (and it is a *very* comfortable workplace), so much so that I stopped growing and learning new things. The team has also reached a point where I feel comfortable exiting, the [bus factor](https://en.wikipedia.org/wiki/Bus_factor) is not one anymore.
 
 ONWARDS!
